@@ -11,7 +11,7 @@ import { Socket, Server } from 'socket.io';
 
 @WebSocketGateway({
   cors: {
-    origin: 'https://chat-client-sigma-ebon.vercel.app',  // Replace with the actual URL of your Vercel app
+    origin: 'https://chat-client-myazawawev.vercel.app',  // Replace with the actual URL of your Vercel app
     methods: ['GET', 'POST'],
   },
 })
